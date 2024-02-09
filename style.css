@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Zen+Dots&display=swap');
+
+h1{font-family:  'Zen Dots', cursive;color: #0e6234;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);}
+h2{font-family:  'Zen Dots', cursive;color: #0e6234;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.194);}
+
+/*parte do cabecalho*/
+
+
+body{background-color: #84E1AD;height: 2400px; margin: 0px ;}
+
+#cab{width: 365px;display: inline-block;}
+
+header{text-align: center;background-image: linear-gradient(180deg,#3fb170,#1a5b37);color: azure;height: 144px;}
+
+#lik{text-align: left;}
+
+a{text-decoration: none;}
+
+.lik1:hover{text-decoration: underline;color: black;background-color: #00ff7317;}
+
+.lik1{color: aliceblue ;padding-right: 10px ;padding-left: 10px; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.224);}
+header>h1{text-shadow: 1px 1px 1px black;margin: 0px;padding-top: 15px;}
+/*FIM DO CABECALHO*/
+
+/*CONTEUDO PRINCIPAL*/
+
+main{background-color: rgb(251, 252, 255); margin: 144px; height:  2205px;border-radius: 5px;margin-top: 0px;}
+
+
+.verd{color: #0e6234;text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.326);}
+
+main>h1{margin: 0px;}
+section{padding: 10px;}
+article{padding: 10px;text-align: justify;text-indent: 10px;}
+
+article>h2{background-image: linear-gradient(90deg, rgba(12, 179, 57, 0.24),rgba(251, 251, 251, 0.301));margin: 0px;}
+img{display: block;}
+
+/*configuraçoes do links*/
+a{color: rgb(26, 129, 28);text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151) ;}
+
+p>a::after{content: '🔗 ';}
+article>a::after{content: '🔗 ';}
+article>a:hover{background-color: #0e623422;padding: 3px;}
+
+p>a:hover{background-color: #0e623422;padding: 3px;}
+img{margin: auto;border-radius: 10px;}
+iframe{display: block;}
+iframe{margin: auto;border-radius: 15px;box-shadow: 1px 1px 1px 3px   rgba(0, 0, 0, 0.121);}
+
+#extra{ width: 760px;margin: auto; margin-bottom: 0px; border: 100px;background-color: #2ab55df6;padding: 5px;border-radius: 15px 15px 0px 0px;border: solid 1px rgba(0, 0, 0, 0.098);margin-top: 50px;}
+
+#extra1{width: 750px; margin: auto; margin-top: 0px; background-color: #39987488; height: 300px;padding:10px;border-radius: 0px 0px 20px 20px;} 
+
+div>p{margin-top: 0px;}
+
+ul{display:inline-block;}
+
+#list1{margin:0px;padding-right: 150px;}
+#list1{margin-top: 1px;}
+
+article>#fim{padding-top: 20px;}
+
+footer{background-color: rgb(5, 2, 21);color: aliceblue;text-align: center;}
+
+
+
+
+/*FIM DO CONTEUDO PRINCIPAL*/
+
+
